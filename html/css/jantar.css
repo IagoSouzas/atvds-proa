@@ -12,16 +12,20 @@ nav {
 nav ul {
 	  list-style: none;
 	  justify-content: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
 	  width: 91%;
   }
 
 nav ul li {
     margin: 0px 1% 100px 1%;
     width:10%;
-	  text-align: center;
+	text-align: center;
+}
+
+ul, ol{
+    font-family: 'Segoe UI';
 }
 
 nav ul li a {
@@ -52,7 +56,7 @@ h1{
 }
 
 h3{
-    text-align: left;
+    text-align: center;
     font-family: Verdana;
     margin-left: 5%;
     width: 90%;
@@ -63,14 +67,17 @@ h3{
 p{
     color: aliceblue;
     text-align: center;
-    font-family: inherit;
+    font-family: arial;
     width: 15%;
+    height: 5%;
 }
 
 #k1{
     color: brown;
     font-size: 150%;
-    width: 30%;
+    width: 90%;
+    height: 5%;
+    text-align: center;
 }
 
 li{
@@ -83,15 +90,16 @@ strong{
 }
 
 main{
+    padding: 1%;
     height: 10%;
     background: rgb(73, 56, 61);
     width: 60%;
     align-items: center;
+    margin-left: 17vw;
 }
 
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 1.5%;
 }
