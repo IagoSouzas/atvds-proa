@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+
+</style>
+
+<script>
+    //Exemplo
+
+    /*var primeiro_numero = 3;
+    let segundo_numero = 9;
+    const cebola = 5;   // Valor Fixo que nunca poderá ser alterado;
+    
+    primeiro_numero = 4 + 1
+    batata = 9
+
+    resultado = primeiro_numero + (5 * primeiro_numero) - 1 + (segundo_numero
+
+    + primeiro_numero + primeiro_numero + (primeiro_numero + segundo_numero + primeiro_numero + primeiro_numero + 1) / (primeiro_numero + segundo_numero + primeiro_numero + primeiro_numero - 75 * primeiro_numero + segundo_numero + primeiro_numero + primeiro_numero + 2 * primeiro_numero + segundo_numero + primeiro_numero + primeiro_numero+ 5) / primeiro_numero + segundo_numero + primeiro_numero + primeiro_numero) * 100;
+
+    alert(resultado);
+    document.write(resultado);
+    console.log(resultado);
+    */
+
+    //Escreva um programa em Javascript e crie uma variável chamada "nomeDoCarro" e atribua-a um valor "Fusca". Exiba-a ao usuário.
+    var nome_do_Carro = "fusca";
+    document.write(nome_do_Carro + "<br>");
+
+    //Escreva um programa em Javascript em que o usuário informe o seu nome e exiba a mensagem "Olá, [NomeDoUsuario]".
+    //Escreva um programa em Javascript em que o usuário informe o seu nome e em seguida o programa perguntará a idade do usuário. Agora o programa deve exibir a mensagem "Olá, [NomeDoUsuario], sua idade é [idade]".
+
+    //Concatenação
+    //5+5 = 10
+    //"5" + "5" = "55"
+    var nome = prompt("Digite o seu nome");
+    var idade = prompt("Digite sua idade");
+    document.write("Olá, " + nome + " sua idade é " + idade + "<br>");
+
+    //Considerando a figura acima, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+    var base = parseInt(prompt("Digite o valor da base do Retângulo:"));
+    var altura = parseInt(prompt("Digite o valor da altura do Retângulo:"));
+    var Resultado = base * altura;
+
+    document.write("Valor do Retângulo é " + Resultado + "<br>");
+
+    var lado = parseInt(prompt("Digite o valor do lado que você deseja elevar a 2:"));
+
+    var Resultado = lado * lado;
+
+    document.write(" Valor do quadrado: " + Resultado + "<br>");
+
+    var diagonal_maior = parseInt(prompt("Digite o valor da diagonal maior do Losango:"));
+    var diagonal_menor = parseInt(prompt("Digite o valor da diagonal menor do Losango:"));
+    var Resultado = diagonal_maior * diagonal_menor / 2;
+
+    document.write("Valor do Losango:" + Resultado + "<br>")
+
+    var base_maior = parseInt(prompt("Digite o valor da base maior do trapézio:"));
+    var base_menor = parseInt(prompt("Digite o valor da base menor do trapézio:"));
+    var h = parseInt(prompt("Digite o valor de h do trapézio:"));
+    var Resultado = (base_maior + base_menor) * h / 2;
+
+    document.write("O valor do Trapézio é " + Resultado + ("<br>"))
+
+    var base_p = parseInt(prompt("Digite o valor da base do Paralelograma:"));
+    var altura_p = parseInt(prompt("Digite o valor da altura do Paralelograma:"));
+    var Resultado = base_p * altura_p;
+
+    document.write("O valor do Paralelograma é " + Resultado + "<br>");
+
+    var base_t = parseInt(prompt("Digite o valor da base do Triangulo:"));
+    var altura_t = parseInt(prompt("Digite o valor da altura do Triângulo:"));
+    var Resultado = base_t * altura_t / 2;
+
+    document.write("O valor do Triângulo é " + Resultado + "<br>");
+
+    var PI = parseInt(prompt("Digite o valor de PI:"))
+    var R = parseInt(prompt("Digite o valor de Raio:"))
+    var Resultado = PI * R * 2
+
+    document.write("O valor do circulo é " + Resultado + "<br>")
+
+
+        
+
+
+
+
+</script>
+
+
+
+
+<body>
+
+</body>
+
+</html>
